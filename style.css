@@ -145,7 +145,6 @@ body {
 }
 
 .wrapper {
-  border-radius: 1rem;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
