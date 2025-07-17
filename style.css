@@ -92,6 +92,7 @@
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    text-wrap: pretty;
   }
 
   /* Make images easier to work with */
@@ -214,7 +215,7 @@ body {
 }
 .summary {
   background-color: var(--white);
-  border-radius: 0 2rem 2rem 2rem;
+  border-radius: 0;
   padding: 3rem;
   @media (width > 46.87rem) {
     border-radius: 0 2rem 2rem 0;
