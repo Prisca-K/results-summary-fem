@@ -291,7 +291,8 @@ body {
     background-color: var(--dark-gray-blue);
     color: var(--white);
     transition: all 500ms ease;
-    &:hover {
+    &:hover,
+    &:focus-within {
       background-color: var(--light-royal-blue);
       transform: translateY(0.25rem);
     }
